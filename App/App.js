@@ -1,24 +1,19 @@
 import React from 'react';
 import { StyleSheet, Text, View, StatusBar } from 'react-native';
+import { createStackNavigator, createAppContainer } from "react-navigation";
 
-import SplashScreen from './src/containers/SplashScreen';
+import SplashScreen from './src/containers/Splash/SplashScreen';
+import TypeMenu from './src/containers/TypeMenu/TypeMenu';
 
-export default class App extends React.Component {
+class App extends React.Component {
   render() {
-    return (
-      <View style={styles.container}>
-        <StatusBar hidden={true} />
-        <SplashScreen></SplashScreen>
-      </View>
-    );
+    return {}
   }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+const AppNavigator = createStackNavigator({
+  Home: SplashScreen,
+  TypeMenu: TypeMenu
 });
+
+export default createAppContainer(AppNavigator);
