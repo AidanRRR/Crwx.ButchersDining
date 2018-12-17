@@ -11,6 +11,11 @@ export default StyleSheet.create({
         width: '33.33%',
         height: '100%'
     },
+    menuItemView: {
+        flex: 1,
+        flexDirection: 'column',
+        justifyContent: 'center'
+    },
     menuItemHeader: {
         textAlign: 'center',
         color: 'white',

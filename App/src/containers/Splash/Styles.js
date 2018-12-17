@@ -9,7 +9,7 @@ export default StyleSheet.create({
     textContainer: {
         alignSelf: 'center',
         position: 'absolute',
-        bottom: '15%',
+        bottom: '10%',
 
         backgroundColor: 'white',
 
@@ -17,5 +17,9 @@ export default StyleSheet.create({
         paddingRight: 15,
         paddingTop: 10,
         paddingBottom: 10
+    },
+    button: {
+        fontSize: 30,
+        fontWeight: 'bold'
     }
 });
