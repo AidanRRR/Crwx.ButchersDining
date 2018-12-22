@@ -17,9 +17,10 @@ export default StyleSheet.create({
         justifyContent: 'center'
     },
     menuItemHeader: {
+        fontFamily: 'microbrew-soft-one',
         textAlign: 'center',
         color: 'white',
-        fontSize: 25,
+        fontSize: 35,
         marginBottom: 15
     },
     menuItemText: {

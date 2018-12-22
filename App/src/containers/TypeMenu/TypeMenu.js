@@ -23,7 +23,10 @@ export default class TypeMenu extends React.Component {
                             this.navigateToMenu('WineMenu');
                         }}>
                             <View style={styles.menuItemView}>
-                                <Text style={styles.menuItemHeader}>By the glass</Text>
+                                <Text style={styles.menuItemHeader}>
+                                    {`By the
+                                    glass`}
+                                </Text>
                             </View>
                         </TouchableWithoutFeedback>
                     </ImageBackground>
@@ -34,7 +37,9 @@ export default class TypeMenu extends React.Component {
                             this.navigateToMenu('WineMenu');
                         }}>
                             <View style={styles.menuItemView}>
-                                <Text style={styles.menuItemHeader}>Bottles</Text>
+                                <Text style={styles.menuItemHeader}>
+                                    {`Bottles`}
+                                </Text>
                             </View>
                         </TouchableWithoutFeedback>
                     </ImageBackground>
@@ -45,7 +50,10 @@ export default class TypeMenu extends React.Component {
                             this.navigateToMenu('WineMenu');
                         }}>
                             <View style={styles.menuItemView}>
-                                <Text style={styles.menuItemHeader}>The butcher's basement</Text>
+                                <Text style={styles.menuItemHeader}>
+                                    {`The butcher's
+                                    basement`}
+                                </Text>
                             </View>
                         </TouchableWithoutFeedback>
                     </ImageBackground>
