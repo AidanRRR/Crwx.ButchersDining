@@ -23,6 +23,100 @@
                             "description": "De vulkanische bodem geeft een elegante, complexe en lichtvoetige klasbak."
                         }
                     ]
+                },
+                {
+                    "id": 1,
+                    "type": "Bottles",
+                    "wines": [
+                        {
+                            "id": 0,
+                            "country": "Frankrijk",
+                            "wines": [
+                                {
+                                    "id": 0,
+                                    "title": "2017 - Sauvignon de Touraine",
+                                    "region": "Domaine de Corbillières, Loire",
+                                    "price": 28,
+                                    "description": ""
+                                },
+                                {
+                                    "id": 1,
+                                    "title": "2017 Rousssillon 'Centenaire'",
+                                    "region": "Domaine Lafage Roussillon",
+                                    "price": 34.00,
+                                    "description": ""
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "2016 Sancerre",
+                                    "region": "Dom. Roland Tissier, Loire",
+                                    "price": 37.00,
+                                    "description": ""
+                                },
+                                {
+                                    "id": 3,
+                                    "title": "2015 Chablis 'Les Hauts de Milly'",
+                                    "region": "Bernard Defaix, Bourgogne",
+                                    "price": 49.00,
+                                    "description": ""
+                                },
+                                {
+                                    "id": 4,
+                                    "title": "Maursault 'Charles Maxime'",
+                                    "region": "Latour Guiraud, Bourgogne",
+                                    "price": 78.00,
+                                    "description": ""
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1,
+                            "country": "Duitsland",
+                            "wines": [
+                                {
+                                    "id": 0,
+                                    "title": "2015 - Mineral",
+                                    "region": "Bergdolt, Pfalz",
+                                    "price": 29.00,
+                                    "description": ""
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "country": "Italië",
+                            "wines": [
+                                {
+                                    "id": 0,
+                                    "title": "2017 - Ribolla Gialla",
+                                    "region": "Villa Chiopris, Friuli",
+                                    "price": 28,
+                                    "description": ""
+                                },
+                                {
+                                    "id": 1,
+                                    "title": "2017 Soave Classico",
+                                    "region": "Suavia, Veneto",
+                                    "price": 38,
+                                    "description": ""
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "2017 - Solarco",
+                                    "region": "Livon, Friuli",
+                                    "price": 46.00,
+                                    "description": ""
+                                },
+                                {
+                                    "id": 3,
+                                    "title": "2015 - Massifitti",
+                                    "region": "Suavia, Veneto",
+                                    "price": 47,
+                                    "description": ""
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -40,6 +134,32 @@
                             "region": "Vignerons de Plaimont 2017",
                             "price": 4.50,
                             "description": "Een pittige, zuivere en elegante rosé. De ideale lentewijn."
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "type": "Bottles",
+                    "wines": [
+                        {
+                            "id": 0,
+                            "country": "Frankrijk",
+                            "wines": [
+                                {
+                                    "id": 0,
+                                    "title": "2017 - Côtes de Gascogne 'Grand Héron'",
+                                    "region": "Vignerons de Plaimont",
+                                    "price": 20,
+                                    "description": ""
+                                },
+                                {
+                                    "id": 1,
+                                    "title": "2017 - Côtes de Roussillon 'Miraflors'",
+                                    "region": "Domaine Lafage",
+                                    "price": 32,
+                                    "description": ""
+                                }
+                            ]
                         }
                     ]
                 }
@@ -114,11 +234,39 @@
             "description": ""
         },
         {
-            "id": 0,
-            "title": "Prosecco 'Extra Dry'",
-            "region": "Villa Chiopris, Friuli",
-            "price": 34.00,
+            "id": 1,
+            "title": "Champagne",
+            "region": "Ayala Brut Majeur",
+            "price": 65.00,
             "description": ""
+        },
+        {
+            "id": 2,
+            "title": "Champagne",
+            "region": "Bollinger Special",
+            "price": 85.00,
+            "description": "Een unieke blend tussen power, body en finesse. Een zeer karaktervolle en elegante champagne met een mooie en verfijnde mousse."
+        },
+        {
+            "id": 3,
+            "title": "Champagne",
+            "region": "Bollinger 'La Grande Année' 2004",
+            "price": 160.00,
+            "description": "Prestige champagne, die enkel geproduceerd wordt wanneer de oogst van dat jaar exceptioneel in balans is. Deze wijn laat men in eiken vaten gisten en blijft minstens 5 jaar in de kelders bewaard."
+        },
+        {
+            "id": 4,
+            "title": "Champagne Grand Cru",
+            "region": "Jacques Selosse Brut Initial",
+            "price": 175.00,
+            "description": "What is more impressive: the definition of aromas and flavors, or is it the wine’s sublime texture? The Initial is remarkable for its nuance, clarity and overall sense of harmony."
+        },
+        {
+            "id": 5,
+            "title": "Champagne Rosé",
+            "region": "Billecart Salmon",
+            "price": 125.00,
+            "description": "Een zalmroze kleur, subtiele aroma’s van bosaardbeien en framboos."
         }
     ]
 }
