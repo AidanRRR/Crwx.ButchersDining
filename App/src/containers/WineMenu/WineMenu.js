@@ -26,25 +26,29 @@ export default class TypeMenu extends React.Component {
                 glassType: this.state.selection.glassType,
                 wineType: id
             }
-        });
+        }, this.updateFilters);
     }
     changeGlassType = (id) => {
-        const { selection } = this.state;
-
-        let filtered = Data.WineTypes.filter((wine) => {
-            return (wine.name === selection.wineType);
-        });
-
-        filtered = filtered[0].glassTypes.filter((glassType) => {
-            return (glassType.type.toUpperCase() === id.toUpperCase());
-        });
-
         this.setState({
             selection: {
                 glassType: id,
                 wineType: this.state.selection.wineType
             },
-            displayData: filtered[0]
+        }, this.updateFilters);
+    }
+    updateFilters = () => {
+        const { selection } = this.state;
+
+        let filtered;
+
+        // Apply winetype filter
+        filtered = Data.WineTypes.filter((wine) => {
+            return (wine.name === selection.wineType);
+        });
+
+        // Apply glasstype filter
+        filtered = filtered[0].glassTypes.filter((glassType) => {
+            return (glassType.type.toUpperCase() === selection.glassType.toUpperCase());
         });
     }
 
