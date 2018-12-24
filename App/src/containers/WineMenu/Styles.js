@@ -9,13 +9,19 @@ export default StyleSheet.create({
     leftNavbar: {
         width: '20%',
         paddingLeft: 35,
-        paddingTop: 25,
+        paddingTop: 25
     },
     leftNavbarText: {
+        alignSelf: 'flex-start',
         color: 'white',
         marginTop: 15,
         marginBottom: 15,
         fontSize: 20
+    },
+    leftNavbarTextUnderline: {
+        borderColor: 'white',
+        borderStyle: 'solid',
+        borderBottomWidth: 2.5,
     },
     topNavbar: {
         width: '100%',
@@ -34,10 +40,12 @@ export default StyleSheet.create({
         color: 'white',
         fontSize: 22.5,
         marginRight: 25,
+        height: 40
+    },
+    topNavbarTextUnderline: {
         borderColor: 'white',
         borderStyle: 'solid',
         borderBottomWidth: 2.5,
-        height: 40
     },
     mainArea: {
         width: '80%',
