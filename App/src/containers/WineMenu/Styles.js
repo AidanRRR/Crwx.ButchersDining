@@ -70,7 +70,8 @@ export default StyleSheet.create({
     },
     ListItem: {
         flexDirection: 'row',
-        flexWrap: 'wrap'
+        flexWrap: 'wrap',
+        marginBottom: 35
     },
     TitleSeperator: {
         color: 'white'
