@@ -20,7 +20,7 @@ export default class TypeMenu extends React.Component {
                 <View style={styles.menuItem}>
                     <ImageBackground source={ByTheGlass} style={{ width: '100%', height: '100%' }}>
                         <TouchableWithoutFeedback style={styles.touchableItem} onPress={() => {
-                            this.navigateToMenu('WineMenu');
+                            this.navigateToMenu('WineMenu', 'By the glass');
                         }}>
                             <View style={styles.menuItemView}>
                                 <Text style={styles.menuItemHeader}>
@@ -34,7 +34,7 @@ export default class TypeMenu extends React.Component {
                 <View style={styles.menuItem}>
                     <ImageBackground source={Bottles} style={{ width: '100%', height: '100%' }}>
                         <TouchableWithoutFeedback style={styles.touchableItem} onPress={() => {
-                            this.navigateToMenu('WineMenu');
+                            this.navigateToMenu('WineMenu', 'Bottles');
                         }}>
                             <View style={styles.menuItemView}>
                                 <Text style={styles.menuItemHeader}>
@@ -47,7 +47,7 @@ export default class TypeMenu extends React.Component {
                 <View style={styles.menuItem}>
                     <ImageBackground source={ButchersBasement} style={{ width: '100%', height: '100%' }}>
                         <TouchableWithoutFeedback style={styles.touchableItem} onPress={() => {
-                            this.navigateToMenu('WineMenu');
+                            this.navigateToMenu('WineMenu', 'The butcher\'s basement');
                         }}>
                             <View style={styles.menuItemView}>
                                 <Text style={styles.menuItemHeader}>
@@ -62,7 +62,7 @@ export default class TypeMenu extends React.Component {
         );
     }
 
-    navigateToMenu = (menu) => {
-        this.props.navigation.navigate(menu);
+    navigateToMenu = (menu, selection) => {
+        this.props.navigation.navigate(menu, { selection });
     }
 }

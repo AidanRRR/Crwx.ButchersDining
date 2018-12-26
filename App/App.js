@@ -10,8 +10,9 @@ class App extends React.Component {
 }
 
 const AppNavigator = createStackNavigator({
-  Home: WineMenu,
-  // Home: SplashScreen,
+  // Home: WineMenu,
+
+  Home: SplashScreen,
   TypeMenu: TypeMenu,
   WineMenu: WineMenu
 });

@@ -592,6 +592,154 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "id": 4,
+                    "name": "BUBBLES",
+                    "wines": [
+                        {
+                            "id": 0,
+                            "country": "Italië",
+                            "wines": [
+                                {
+                                    "id": 0,
+                                    "title": "Prosecco 'Extra Dry'",
+                                    "region": "Villa Chiopris, Friuli",
+                                    "price": 34.00,
+                                    "description": ""
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1,
+                            "country": "Frankrijk",
+                            "wines": [
+                                {
+                                    "id": 0,
+                                    "title": "Champagne",
+                                    "region": "Ayala Brut Majeur",
+                                    "price": 65.00,
+                                    "description": ""
+                                },
+                                {
+                                    "id": 1,
+                                    "title": "Champagne",
+                                    "region": "Bollinger Special",
+                                    "price": 85.00,
+                                    "description": "Een unieke blend tussen power, body en finesse. Een zeer karaktervolle en elegante champagne met een mooie en verfijnde mousse."
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "Champagne",
+                                    "region": "Bollinger 'La Grande Année' 2004",
+                                    "price": 160.00,
+                                    "description": "Prestige champagne, die enkel geproduceerd wordt wanneer de oogst van dat jaar exceptioneel in balans is. Deze wijn laat men in eiken vaten gisten en blijft minstens 5 jaar in de kelders bewaard."
+                                },
+                                {
+                                    "id": 3,
+                                    "title": "Champagne Grand Cru",
+                                    "region": "Jacques Selosse Brut Initial",
+                                    "price": 175.00,
+                                    "description": "What is more impressive: the definition of aromas and flavors, or is it the wine’s sublime texture? The Initial is remarkable for its nuance, clarity and overall sense of harmony."
+                                },
+                                {
+                                    "id": 4,
+                                    "title": "Champagne Rosé",
+                                    "region": "Billecart Salmon",
+                                    "price": 125.00,
+                                    "description": "Een zalmroze kleur, subtiele aroma’s van bosaardbeien en framboos."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "name": "SPECIAL FORMATS",
+                    "wines": [
+                        {
+                            "id": 0,
+                            "country": "Halve Flesjes",
+                            "wines": [
+                                {
+                                    "id": 0,
+                                    "title": "2014 St. Emilion Grand Cru",
+                                    "region": "Château Haut-Segottes, Bordeaux",
+                                    "price": 30.00,
+                                    "description": ""
+                                },
+                                {
+                                    "id": 1,
+                                    "title": "2014 Chianti Classico",
+                                    "region": "Borgo Salcetino, Toscana",
+                                    "price": 22.00,
+                                    "description": ""
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1,
+                            "country": "Magnums",
+                            "wines": [
+                                {
+                                    "id": 0,
+                                    "title": "2015 Barbera d’Alba “Grillaia” 2015",
+                                    "region": "Collina Serragrilli, Piemonte",
+                                    "price": 92.00,
+                                    "description": ""
+                                },
+                                {
+                                    "id": 1,
+                                    "title": "2005 Naima",
+                                    "region": "Viticoltori di Concilis, Campania",
+                                    "price": 125.00,
+                                    "description": ""
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "2013 Sagrantino di Montefalco ",
+                                    "region": "Fattoria Colsanto, Umbria",
+                                    "price": 115.00,
+                                    "description": ""
+                                },
+                                {
+                                    "id": 3,
+                                    "title": "2016 The Chocolate Block ",
+                                    "region": "Boekenhoutskloof, Zuid Afrika",
+                                    "price": 128.00,
+                                    "description": ""
+                                },
+                                {
+                                    "id": 4,
+                                    "title": "2013 Ay Rouge “La Côte aux Enfants”",
+                                    "region": "Bollinger, Champagne",
+                                    "price": 300.00,
+                                    "description": ""
+                                },
+                                {
+                                    "id": 5,
+                                    "title": "2015 Nuits Saint Georges “Le Clos des Forets” 1er Cru",
+                                    "region": "Bourgogne",
+                                    "price": 365.00,
+                                    "description": ""
+                                },
+                                {
+                                    "id": 6,
+                                    "title": "2004 Nuits St. Georges “Le Clos des Forets” 1er Cru",
+                                    "region": "Bourgogne",
+                                    "price": 390.00,
+                                    "description": ""
+                                },
+                                {
+                                    "id": 7,
+                                    "title": "2012 Pape Clément Pessac Léognan Grand Cru Classé",
+                                    "region": "Bordeaux",
+                                    "price": 490.00,
+                                    "description": ""
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -841,116 +989,6 @@
                             "description": ""
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "type": "Bubbles",
-            "wines": [
-                {
-                    "id": 0,
-                    "title": "Prosecco 'Extra Dry'",
-                    "region": "Villa Chiopris, Friuli",
-                    "price": 34.00,
-                    "description": ""
-                },
-                {
-                    "id": 1,
-                    "title": "Champagne",
-                    "region": "Ayala Brut Majeur",
-                    "price": 65.00,
-                    "description": ""
-                },
-                {
-                    "id": 2,
-                    "title": "Champagne",
-                    "region": "Bollinger Special",
-                    "price": 85.00,
-                    "description": "Een unieke blend tussen power, body en finesse. Een zeer karaktervolle en elegante champagne met een mooie en verfijnde mousse."
-                },
-                {
-                    "id": 3,
-                    "title": "Champagne",
-                    "region": "Bollinger 'La Grande Année' 2004",
-                    "price": 160.00,
-                    "description": "Prestige champagne, die enkel geproduceerd wordt wanneer de oogst van dat jaar exceptioneel in balans is. Deze wijn laat men in eiken vaten gisten en blijft minstens 5 jaar in de kelders bewaard."
-                },
-                {
-                    "id": 4,
-                    "title": "Champagne Grand Cru",
-                    "region": "Jacques Selosse Brut Initial",
-                    "price": 175.00,
-                    "description": "What is more impressive: the definition of aromas and flavors, or is it the wine’s sublime texture? The Initial is remarkable for its nuance, clarity and overall sense of harmony."
-                },
-                {
-                    "id": 5,
-                    "title": "Champagne Rosé",
-                    "region": "Billecart Salmon",
-                    "price": 125.00,
-                    "description": "Een zalmroze kleur, subtiele aroma’s van bosaardbeien en framboos."
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "type": "Special Formats",
-            "wines": [
-                {
-                    "id": 0,
-                    "title": "2015 Barbera d’Alba “Grillaia” 2015",
-                    "region": "Collina Serragrilli, Piemonte",
-                    "price": 92.00,
-                    "description": ""
-                },
-                {
-                    "id": 1,
-                    "title": "2005 Naima",
-                    "region": "Viticoltori di Concilis, Campania",
-                    "price": 125.00,
-                    "description": ""
-                },
-                {
-                    "id": 2,
-                    "title": "2013 Sagrantino di Montefalco ",
-                    "region": "Fattoria Colsanto, Umbria",
-                    "price": 115.00,
-                    "description": ""
-                },
-                {
-                    "id": 3,
-                    "title": "2016 The Chocolate Block ",
-                    "region": "Boekenhoutskloof, Zuid Afrika",
-                    "price": 128.00,
-                    "description": ""
-                },
-                {
-                    "id": 4,
-                    "title": "2013 Ay Rouge “La Côte aux Enfants”",
-                    "region": "Bollinger, Champagne",
-                    "price": 300.00,
-                    "description": ""
-                },
-                {
-                    "id": 5,
-                    "title": "2015 Nuits Saint Georges “Le Clos des Forets” 1er Cru",
-                    "region": "Bourgogne",
-                    "price": 365.00,
-                    "description": ""
-                },
-                {
-                    "id": 6,
-                    "title": "2004 Nuits St. Georges “Le Clos des Forets” 1er Cru",
-                    "region": "Bourgogne",
-                    "price": 390.00,
-                    "description": ""
-                },
-                {
-                    "id": 7,
-                    "title": "2012 Pape Clément Pessac Léognan Grand Cru Classé",
-                    "region": "Bordeaux",
-                    "price": 490.00,
-                    "description": ""
                 }
             ]
         }
