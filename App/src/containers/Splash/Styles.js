@@ -9,7 +9,7 @@ export default StyleSheet.create({
     textContainer: {
         alignSelf: 'center',
         position: 'absolute',
-        bottom: '10%',
+        bottom: '12.5%',
 
         backgroundColor: 'white',
 

@@ -19,7 +19,8 @@ export default class SplashScreen extends React.Component {
     async componentDidMount() {
         await Font.loadAsync({
             'microbrew-soft-one': require('./../../../assets/fonts/Microbrew-Soft-Four.otf'),
-            'minionpro-bold': require('./../../../assets/fonts/MinionPro-Bold.otf')
+            'minionpro-Medium': require('./../../../assets/fonts/MinionPro-Medium.otf'),
+            'minionpro-Bold': require('./../../../assets/fonts/MinionPro-Bold.otf')
         });
 
         this.setState({ fontLoaded: true });

@@ -9,14 +9,15 @@ export default StyleSheet.create({
     leftNavbar: {
         width: '20%',
         paddingLeft: 35,
-        paddingTop: 25
+        paddingTop: 130
     },
     leftNavbarText: {
+        fontFamily: 'microbrew-soft-one',
         alignSelf: 'flex-start',
         color: 'white',
         marginTop: 15,
         marginBottom: 15,
-        fontSize: 20
+        fontSize: 25
     },
     leftNavbarTextUnderline: {
         borderColor: 'white',
@@ -31,12 +32,14 @@ export default StyleSheet.create({
         flexWrap: 'wrap',
     },
     topNavbarText: {
+        fontFamily: 'microbrew-soft-one',
         color: 'white',
         fontSize: 22.5,
         marginLeft: 25,
         marginRight: 25
     },
     topNavbarTextFirst: {
+        fontFamily: 'microbrew-soft-one',
         color: 'white',
         fontSize: 22.5,
         marginRight: 25,
@@ -49,24 +52,38 @@ export default StyleSheet.create({
     },
     mainArea: {
         width: '80%',
-        height: '100%',
+        height: '100%'
     },
     wineList: {
         width: '100%',
         height: 'auto',
     },
+    ListTitleFirst: {
+        flexDirection: 'row',
+        alignSelf: 'flex-start',
+        backgroundColor: 'white',
+        paddingTop: 5,
+        paddingBottom: 5,
+        paddingLeft: 15,
+        paddingRight: 15,
+        marginBottom: 35,
+        marginTop: 0
+    },
     ListTitle: {
         flexDirection: 'row',
         alignSelf: 'flex-start',
         backgroundColor: 'white',
-        paddingTop: 10,
-        paddingBottom: 10,
+        paddingTop: 5,
+        paddingBottom: 5,
         paddingLeft: 15,
         paddingRight: 15,
-        marginBottom: 45
+        marginBottom: 35,
+        marginTop: 45
     },
     ListTitleText: {
-        fontSize: 20
+        fontFamily: 'minionpro-Medium',
+        fontSize: 22,
+        fontWeight: 'bold'
     },
     ListItem: {
         flexDirection: 'row',
@@ -74,23 +91,35 @@ export default StyleSheet.create({
         marginBottom: 35
     },
     TitleSeperator: {
+        fontFamily: 'minionpro-Medium',
+        fontSize: 21,
         color: 'white'
     },
     ItemTitle: {
+        fontFamily: 'minionpro-Medium',
+        fontSize: 22,
         color: 'white'
     },
     ItemRegion: {
+        fontFamily: 'minionpro-Medium',
+        fontSize: 22,
         color: 'white'
     },
     ItemPrice: {
-        color: 'white'
+        fontFamily: 'minionpro-Medium',
+        color: 'white',
+        fontSize: 22,
     },
     ItemType: {
-        color: 'gray'
+        color: '#B8B8B8',
+        fontStyle: 'italic',
+        fontSize: 15
     },
     ItemDescription: {
-        color: 'gray',
+        color: '#B8B8B8',
         fontStyle: 'italic',
+        fontSize: 15,
+        width: '50%'
     },
     ItemTitleDescPrice: {
         flexDirection: 'row',
