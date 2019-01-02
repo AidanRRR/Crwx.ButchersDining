@@ -284,25 +284,45 @@ export default class TypeMenu extends React.Component {
 
     renderButchersBasement = (displayData) => {
         return (
-            displayData.wines.map((wine, i) => {
+            displayData.domains.map((domain, i) => {
                 return (
-                    <View key={i} style={styles.ListItem}>
-                        <View style={styles.ItemTitleDescPrice}>
-                            <Text style={styles.ItemTitle}>{wine.title}</Text>
-                            <Text style={styles.TitleSeperator}> * </Text>
-                            <Text style={styles.ItemRegion}>{wine.region}</Text>
+                    <View key={i}>
+                        {i === 0 && (
+                            <View style={{ marginTop: -40 }}></View>
+                        )}
+                        <View style={styles.ListItemDomainContainer}>
+                            <Text style={styles.ListItemDomainTitle}>
+                                {domain.title}
+                            </Text>
+                            {domain.description !== "" && domain.description !== undefined && (
+                                <Text style={styles.ListItemDomainText}>
+                                    {domain.description}
+                                </Text>
+                            )}
                         </View>
-                        <View style={styles.ListItemPrice}>
-                            <Text style={styles.ItemPrice}>{wine.price}</Text>
-                        </View>
-                        <View>
-                            <View>
-                                <Text style={styles.ItemType}>{wine.region}</Text>
-                            </View>
-                            <View>
-                                <Text style={styles.ItemDescription}>{wine.description}</Text>
-                            </View>
-                        </View>
+
+                        {
+                            domain.wines.map((wine, i) => {
+                                return (
+                                    <View key={i} style={styles.ListItemBasement}>
+                                        <View style={styles.ItemTitleDescPrice}>
+                                            <Text style={styles.ItemTitle}>{wine.title}</Text>
+                                        </View>
+                                        <View style={styles.ListItemPrice}>
+                                            <Text style={styles.ItemPrice}>{wine.price}</Text>
+                                        </View>
+                                        <View>
+                                            <View>
+                                                <Text style={styles.ItemType}>{wine.region}</Text>
+                                            </View>
+                                            <View>
+                                                <Text style={styles.ItemDescription}>{wine.description}</Text>
+                                            </View>
+                                        </View>
+                                    </View>
+                                )
+                            })
+                        }
                     </View>
                 );
             })

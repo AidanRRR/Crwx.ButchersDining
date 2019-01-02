@@ -85,10 +85,30 @@ export default StyleSheet.create({
         fontSize: 22,
         fontWeight: 'bold'
     },
+    ListItemDomainContainer: {
+        marginTop: 40,
+        width: '70%'
+    },
+    ListItemDomainTitle: {
+        fontFamily: 'microbrew-soft-one',
+        color: 'white',
+        fontSize: 27
+    },
+    ListItemDomainText: {
+        fontFamily: 'minionpro-Medium',
+        color: '#B8B8B8',
+        fontSize: 20,
+        marginBottom: 20
+    },
     ListItem: {
         flexDirection: 'row',
         flexWrap: 'wrap',
         marginBottom: 35
+    },
+    ListItemBasement: {
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        marginBottom: 10
     },
     TitleSeperator: {
         fontFamily: 'minionpro-Medium',
