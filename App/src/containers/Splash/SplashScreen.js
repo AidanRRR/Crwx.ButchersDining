@@ -1,7 +1,7 @@
 import React from 'react';
 import { Font } from 'expo';
 import { StyleSheet, Text, View, ImageBackground, TouchableHighlight, TouchableOpacity, StatusBar } from 'react-native';
-import SplashBg from '../../../assets/splash_butcher.png';
+import SplashBg from '../../../assets/splashscreen.jpg';
 
 import styles from './Styles.js';
 

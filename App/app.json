@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "App",
-    "description": "This project is really great.",
-    "slug": "App",
+    "name": "Butcher's dining",
+    "description": "Digital wine menu for De laet",
+    "slug": "Butchers-dining",
     "privacy": "public",
     "sdkVersion": "31.0.0",
     "platforms": [
@@ -15,7 +15,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -25,6 +25,9 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.crossworx.butchersdining"
     }
   }
 }
