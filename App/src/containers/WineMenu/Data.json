@@ -655,63 +655,81 @@
                 },
                 {
                     "id": 5,
-                    "name": "Magnums",
+                    "name": "MAGNUMS",
                     "wines": [
                         {
                             "id": 0,
-                            "title": "2015 Barbera d’Alba “Grillaia” 2015",
-                            "region": "Collina Serragrilli, Piemonte",
-                            "price": "92,00",
-                            "description": ""
+                            "country": "Italië",
+                            "wines": [
+                                {
+                                    "id": 0,
+                                    "title": "2015 Barbera d’Alba “Grillaia” 2015",
+                                    "region": "Collina Serragrilli, Piemonte",
+                                    "price": "92,00",
+                                    "description": ""
+                                },
+                                {
+                                    "id": 1,
+                                    "title": "2005 Naima",
+                                    "region": "Viticoltori di Concilis, Campania",
+                                    "price": "125,00",
+                                    "description": ""
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "2013 Sagrantino di Montefalco ",
+                                    "region": "Fattoria Colsanto, Umbria",
+                                    "price": "115,00",
+                                    "description": ""
+                                },
+                                {
+                                    "id": 3,
+                                    "title": "2013 Ay Rouge “La Côte aux Enfants”",
+                                    "region": "Bollinger, Champagne",
+                                    "price": "300,00",
+                                    "description": ""
+                                }
+                            ]
                         },
                         {
                             "id": 1,
-                            "title": "2005 Naima",
-                            "region": "Viticoltori di Concilis, Campania",
-                            "price": "125,00",
-                            "description": ""
+                            "country": "Frankrijk",
+                            "wines": [
+                                {
+                                    "id": 0,
+                                    "title": "2015 Nuits Saint Georges “Le Clos des Forets” 1er Cru",
+                                    "region": "Bourgogne",
+                                    "price": "365,00",
+                                    "description": ""
+                                },
+                                {
+                                    "id": 1,
+                                    "title": "2004 Nuits St. Georges “Le Clos des Forets” 1er Cru",
+                                    "region": "Bourgogne",
+                                    "price": "390,00",
+                                    "description": ""
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "2012 Pape Clément Pessac Léognan Grand Cru Classé",
+                                    "region": "Bordeaux",
+                                    "price": "490,00",
+                                    "description": ""
+                                }
+                            ]
                         },
                         {
                             "id": 2,
-                            "title": "2013 Sagrantino di Montefalco ",
-                            "region": "Fattoria Colsanto, Umbria",
-                            "price": "115,00",
-                            "description": ""
-                        },
-                        {
-                            "id": 3,
-                            "title": "2016 The Chocolate Block ",
-                            "region": "Boekenhoutskloof, Zuid Afrika",
-                            "price": "128,00",
-                            "description": ""
-                        },
-                        {
-                            "id": 4,
-                            "title": "2013 Ay Rouge “La Côte aux Enfants”",
-                            "region": "Bollinger, Champagne",
-                            "price": "300,00",
-                            "description": ""
-                        },
-                        {
-                            "id": 5,
-                            "title": "2015 Nuits Saint Georges “Le Clos des Forets” 1er Cru",
-                            "region": "Bourgogne",
-                            "price": "365,00",
-                            "description": ""
-                        },
-                        {
-                            "id": 6,
-                            "title": "2004 Nuits St. Georges “Le Clos des Forets” 1er Cru",
-                            "region": "Bourgogne",
-                            "price": "390,00",
-                            "description": ""
-                        },
-                        {
-                            "id": 7,
-                            "title": "2012 Pape Clément Pessac Léognan Grand Cru Classé",
-                            "region": "Bordeaux",
-                            "price": "490,00",
-                            "description": ""
+                            "country": "Zuid-Afrika",
+                            "wines": [
+                                {
+                                    "id": 0,
+                                    "title": "2016 The Chocolate Block ",
+                                    "region": "Boekenhoutskloof, Zuid Afrika",
+                                    "price": "128,00",
+                                    "description": ""
+                                }
+                            ]
                         }
                     ]
                 }

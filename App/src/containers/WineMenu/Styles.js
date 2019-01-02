@@ -119,7 +119,7 @@ export default StyleSheet.create({
         color: '#B8B8B8',
         fontStyle: 'italic',
         fontSize: 15,
-        width: '50%'
+        width: '100%'
     },
     ItemTitleDescPrice: {
         flexDirection: 'row',

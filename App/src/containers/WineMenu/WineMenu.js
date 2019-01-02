@@ -117,15 +117,13 @@ export default class TypeMenu extends React.Component {
                                     (<Text style={[styles.leftNavbarText, styles.leftNavbarTextUnderline]}>ZOET</Text>) :
                                     (<Text style={[styles.leftNavbarText]}>ZOET</Text>)}
                             </TouchableOpacity>
-                            <TouchableOpacity onPress={() => { this.changeWineType('SPECIAL FORMATS'); }}>
-                                {selection.wineType === 'SPECIAL FORMATS' ?
+                            <TouchableOpacity onPress={() => { this.changeWineType('MAGNUMS'); }}>
+                                {selection.wineType === 'MAGNUMS' ?
                                     (<Text style={[styles.leftNavbarText, styles.leftNavbarTextUnderline]}>
-                                        {`SPECIAL 
-                                        FORMATS`}
+                                        {`MAGNUMS`}
                                     </Text>) :
                                     (<Text style={[styles.leftNavbarText]}>
-                                        {`SPECIAL 
-                                        FORMATS`}
+                                        {`MAGNUMS`}
                                     </Text>)}
                             </TouchableOpacity>
                         </View>
@@ -228,36 +226,56 @@ export default class TypeMenu extends React.Component {
             })
         )
     }
+
     renderBottles = (displayData) => {
         return (
             displayData.wines.map((country, i) => {
                 return (
-                    country.wines.map((wine, i) => {
-                        return (
-                            <View key={i} style={styles.ListItem}>
-                                <View style={styles.ItemTitleDescPrice}>
-                                    <Text style={styles.ItemTitle}>{wine.title}</Text>
-                                    <Text style={styles.TitleSeperator}> ∙ </Text>
-                                    <Text style={styles.ItemRegion}>{wine.region}</Text>
-                                </View>
-                                <View style={styles.ListItemPrice}>
-                                    <Text style={styles.ItemPrice}>{wine.price}</Text>
-                                </View>
-                                <View>
-                                    <View>
-                                        <Text style={styles.ItemType}>{wine.region}</Text>
-                                    </View>
-                                    <View>
-                                        <Text style={styles.ItemDescription}>{wine.description}</Text>
-                                    </View>
-                                </View>
+                    <View key={i}>
+                        {i === 0 && (
+                            <View style={styles.ListTitleFirst}>
+                                <Text style={styles.ListTitleText}>
+                                    {country.country}
+                                </Text>
                             </View>
-                        );
-                    })
+                        )}
+                        {i !== 0 && (
+                            <View style={styles.ListTitle}>
+                                <Text style={styles.ListTitleText}>
+                                    {country.country}
+                                </Text>
+                            </View>
+                        )}
+                        {
+                            country.wines.map((wine, i) => {
+                                return (
+                                    <View key={i} style={styles.ListItem}>
+                                        <View style={styles.ItemTitleDescPrice}>
+                                            <Text style={styles.ItemTitle}>{wine.title}</Text>
+                                            <Text style={styles.TitleSeperator}> ∙ </Text>
+                                            <Text style={styles.ItemRegion}>{wine.region}</Text>
+                                        </View>
+                                        <View style={styles.ListItemPrice}>
+                                            <Text style={styles.ItemPrice}>{wine.price}</Text>
+                                        </View>
+                                        <View>
+                                            <View>
+                                                <Text style={styles.ItemType}>{wine.region}</Text>
+                                            </View>
+                                            <View>
+                                                <Text style={styles.ItemDescription}>{wine.description}</Text>
+                                            </View>
+                                        </View>
+                                    </View>
+                                )
+                            })
+                        }
+                    </View>
                 )
             })
         )
     }
+
     renderButchersBasement = (displayData) => {
         return (
             displayData.wines.map((wine, i) => {
