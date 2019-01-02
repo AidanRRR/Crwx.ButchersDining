@@ -42,10 +42,16 @@ export default class TypeMenu extends React.Component {
         }, this.updateFilters);
     }
     changeSizeType = (id) => {
+
+        let wineType = this.state.selection.wineType;
+        if (id.toUpperCase() === 'THE BUTCHER\'S BASEMENT') {
+            wineType = 'WIT'
+        }
+
         this.setState({
             selection: {
                 sizeType: id,
-                wineType: this.state.selection.wineType,
+                wineType: wineType,
                 isSet: true
             },
             loading: true
@@ -262,7 +268,7 @@ export default class TypeMenu extends React.Component {
                                             <View>
                                                 <Text style={styles.ItemType}>{wine.region}</Text>
                                             </View>
-                                            <View>
+                                            <View style={styles.ItemDescriptionContainer}>
                                                 <Text style={styles.ItemDescription}>{wine.description}</Text>
                                             </View>
                                         </View>

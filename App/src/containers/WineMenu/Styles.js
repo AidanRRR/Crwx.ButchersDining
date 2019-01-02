@@ -115,11 +115,13 @@ export default StyleSheet.create({
         fontStyle: 'italic',
         fontSize: 15
     },
+    ItemDescriptionContainer: {
+        width: '85%'
+    },
     ItemDescription: {
         color: '#B8B8B8',
         fontStyle: 'italic',
-        fontSize: 15,
-        width: '100%'
+        fontSize: 15
     },
     ItemTitleDescPrice: {
         flexDirection: 'row',
