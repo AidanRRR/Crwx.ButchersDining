@@ -47,6 +47,9 @@ export default class TypeMenu extends React.Component {
         if (id.toUpperCase() === 'THE BUTCHER\'S BASEMENT') {
             wineType = 'WIT'
         }
+        if (id.toUpperCase() === 'BOTTLES') {
+            wineType = 'BUBBLES'
+        }
 
         this.setState({
             selection: {
@@ -265,11 +268,8 @@ export default class TypeMenu extends React.Component {
                                             <Text style={styles.ItemPrice}>{wine.price}</Text>
                                         </View>
                                         <View>
-                                            <View>
-                                                <Text style={styles.ItemType}>{wine.region}</Text>
-                                            </View>
                                             <View style={styles.ItemDescriptionContainer}>
-                                                <Text style={styles.ItemDescription}>{wine.description}</Text>
+                                                <Text style={styles.ListItemDomainText}>{wine.description}</Text>
                                             </View>
                                         </View>
                                     </View>

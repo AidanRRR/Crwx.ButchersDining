@@ -128,6 +128,8 @@ export default StyleSheet.create({
     ItemPrice: {
         fontFamily: 'minionpro-Medium',
         color: 'white',
+        textAlign: 'right',
+        marginRight: 85,
         fontSize: 22,
     },
     ItemType: {

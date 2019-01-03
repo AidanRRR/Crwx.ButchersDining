@@ -81,6 +81,13 @@
                             "region": "Domaine Lafage, Roussillon 2016",
                             "price": "8,50",
                             "description": "Deze rode, zoete wijn combineert perfect met Chocola en aanverwanten."
+                        },
+                        {
+                            "id": 2,
+                            "title": "Barolo “Chinato”",
+                            "region": "Cocchi, Piemonte",
+                            "price": "8,50",
+                            "description": "Deze rode, kruidige en lichtzoete wijn is de ideale afsluiter."
                         }
                     ]
                 }
@@ -229,7 +236,7 @@
                                     "id": 1,
                                     "title": "2017  Roussillon “Les Sorcières”",
                                     "region": "Clos des Fées, Roussillon",
-                                    "price": "32,00",
+                                    "price": "36,00",
                                     "description": ""
                                 },
                                 {
@@ -303,7 +310,7 @@
                                 },
                                 {
                                     "id": 4,
-                                    "title": "2016  Rosso di Montalcino",
+                                    "title": "2014  Rosso di Montalcino",
                                     "region": "Canalicchio di Sopra, Toscana",
                                     "price": "53,00",
                                     "description": ""
@@ -397,8 +404,8 @@
                             "wines": [
                                 {
                                     "id": 0,
-                                    "title": "2017  Bierzo Joven “Castro de Valtuille”",
-                                    "region": "Raul Perez, Galicia",
+                                    "title": "2014  Malbec Reserva",
+                                    "region": "Altos Las Hormigas",
                                     "price": "27,00",
                                     "description": ""
                                 }
@@ -439,154 +446,6 @@
                                     "title": "2016  Maury",
                                     "region": "Domaine Lafage, Roussillon",
                                     "price": "34,00",
-                                    "description": ""
-                                }
-                            ]
-                        },
-                        {
-                            "id": 1,
-                            "country": "Italië",
-                            "wines": [
-                                {
-                                    "id": 0,
-                                    "title": "2015  Chianti Classico",
-                                    "region": "Borgo Salcetino, Toscana",
-                                    "price": "38,00",
-                                    "description": ""
-                                },
-                                {
-                                    "id": 1,
-                                    "title": "2015  Primitivo di Puglia",
-                                    "region": "Fatalone, Puglia",
-                                    "price": "39,00",
-                                    "description": ""
-                                },
-                                {
-                                    "id": 2,
-                                    "title": "2014  Donnaluna",
-                                    "region": "Viticoltori de Concilis, Campania",
-                                    "price": "42,00",
-                                    "description": ""
-                                },
-                                {
-                                    "id": 3,
-                                    "title": "2016  Barbera d’Alba “Grillaia”",
-                                    "region": "Collina Serragrilli, Piemonte",
-                                    "price": "43,00",
-                                    "description": ""
-                                },
-                                {
-                                    "id": 4,
-                                    "title": "2016  Rosso di Montalcino",
-                                    "region": "Canalicchio di Sopra, Toscana",
-                                    "price": "53,00",
-                                    "description": ""
-                                },
-                                {
-                                    "id": 5,
-                                    "title": "2014  Nebbiolo d’Alba “Perbacco”",
-                                    "region": "Vietti, Piemonte",
-                                    "price": "53,00",
-                                    "description": ""
-                                },
-                                {
-                                    "id": 6,
-                                    "title": "2013  Sagrantino di Montefalco",
-                                    "region": "Fattoria Colsanto, Umbria",
-                                    "price": "54,00",
-                                    "description": ""
-                                },
-                                {
-                                    "id": 7,
-                                    "title": "2015  Barbaresco",
-                                    "region": "Collina Serragrilli, Piemonte",
-                                    "price": "85,00",
-                                    "description": ""
-                                },
-                                {
-                                    "id": 8,
-                                    "title": "2012  Barolo ‘Cannubi’",
-                                    "region": "Francesco Rinaldi, Piemonte",
-                                    "price": "119,00",
-                                    "description": ""
-                                }
-                            ]
-                        },
-                        {
-                            "id": 2,
-                            "country": "Spanje",
-                            "wines": [
-                                {
-                                    "id": 0,
-                                    "title": "2017  Bierzo Joven “Castro de Valtuille”",
-                                    "region": "Raul Perez, Galicia",
-                                    "price": "27,00",
-                                    "description": ""
-                                },
-                                {
-                                    "id": 1,
-                                    "title": "2015  Ribera del Duero “Crianza”",
-                                    "region": "Teofilo Reyes, Castilla y Leon",
-                                    "price": "57,00",
-                                    "description": ""
-                                },
-                                {
-                                    "id": 2,
-                                    "title": "2014  Rioja “Roda Reserva”",
-                                    "region": "Bodegas Roda, Rioja",
-                                    "price": "68,00",
-                                    "description": ""
-                                }
-                            ]
-                        },
-                        {
-                            "id": 3,
-                            "country": "Duitsland",
-                            "wines": [
-                                {
-                                    "id": 0,
-                                    "title": "2013  Mimus",
-                                    "region": "Dr. Heger, Ahr",
-                                    "price": "65,00",
-                                    "description": ""
-                                }
-                            ]
-                        },
-                        {
-                            "id": 4,
-                            "country": "USA",
-                            "wines": [
-                                {
-                                    "id": 0,
-                                    "title": "2015  Zinfandel Backroads",
-                                    "region": "Saucelito Canyon",
-                                    "price": "64,00",
-                                    "description": ""
-                                }
-                            ]
-                        },
-                        {
-                            "id": 5,
-                            "country": "Argentinië",
-                            "wines": [
-                                {
-                                    "id": 0,
-                                    "title": "2017  Bierzo Joven “Castro de Valtuille”",
-                                    "region": "Raul Perez, Galicia",
-                                    "price": "27,00",
-                                    "description": ""
-                                }
-                            ]
-                        },
-                        {
-                            "id": 6,
-                            "country": "Zuid-Afrika",
-                            "wines": [
-                                {
-                                    "id": 0,
-                                    "title": "2016  The Chocolate Block",
-                                    "region": "Boekenhoutskloof",
-                                    "price": "58,00",
                                     "description": ""
                                 }
                             ]
@@ -658,62 +517,97 @@
                     "name": "MAGNUMS",
                     "wines": [
                         {
+                            "id": 1,
+                            "country": "Frankrijk",
+                            "wines": [
+                                {
+                                    "id": 0,
+                                    "title": "2013  Ay Rouge “La Côte aux Enfants”",
+                                    "region": "Bollinger, Champagne",
+                                    "price": "300,00",
+                                    "description": ""
+                                },
+                                {
+                                    "id": 1,
+                                    "title": "2015  Nuits Saint Georges “Le Clos des Forets” 1er Cru",
+                                    "region": "Bourgogne",
+                                    "price": "365,00",
+                                    "description": ""
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "2004  Nuits St. Georges “Le Clos des Forets” 1er Cru",
+                                    "region": "Bourgogne",
+                                    "price": "390,00",
+                                    "description": ""
+                                },
+                                {
+                                    "id": 3,
+                                    "title": "2014  Giscours – Margaux 3° Grand Cru Classé",
+                                    "region": "Bourgogne",
+                                    "price": "890,00",
+                                    "description": ""
+                                },
+                                {
+                                    "id": 4,
+                                    "title": "2014  Pape Clément - Pessac Léognan Grand Cru Classé",
+                                    "region": "Bourgogne",
+                                    "price": "415,00",
+                                    "description": ""
+                                },
+                                {
+                                    "id": 5,
+                                    "title": "2012  Pape Clément Pessac Léognan Grand Cru Classé",
+                                    "region": "Bordeaux",
+                                    "price": "490,00",
+                                    "description": ""
+                                },
+                                {
+                                    "id": 6,
+                                    "title": "2011  Lynch Bages - Pauillac 5° Grand Cru Classé",
+                                    "region": "Bordeaux",
+                                    "price": "390,00",
+                                    "description": ""
+                                },
+                                {
+                                    "id": 7,
+                                    "title": "2011  Pontet Canet - Pauillac 5° Grand Cru Classé",
+                                    "region": "Bordeaux",
+                                    "price": "495,00",
+                                    "description": ""
+                                },
+                                {
+                                    "id": 8,
+                                    "title": "2011  Mouton Rothschild - Pauillac 1° Grand Cru Classé",
+                                    "region": "Bordeaux",
+                                    "price": "2320,00",
+                                    "description": ""
+                                }
+                            ]
+                        },
+                        {
                             "id": 0,
                             "country": "Italië",
                             "wines": [
                                 {
                                     "id": 0,
-                                    "title": "2015 Barbera d’Alba “Grillaia” 2015",
+                                    "title": "2015  Barbera d’Alba “Grillaia” 2015",
                                     "region": "Collina Serragrilli, Piemonte",
                                     "price": "92,00",
                                     "description": ""
                                 },
                                 {
                                     "id": 1,
-                                    "title": "2005 Naima",
+                                    "title": "2005  Naima",
                                     "region": "Viticoltori di Concilis, Campania",
                                     "price": "125,00",
                                     "description": ""
                                 },
                                 {
                                     "id": 2,
-                                    "title": "2013 Sagrantino di Montefalco ",
+                                    "title": "2013  Sagrantino di Montefalco ",
                                     "region": "Fattoria Colsanto, Umbria",
                                     "price": "115,00",
-                                    "description": ""
-                                },
-                                {
-                                    "id": 3,
-                                    "title": "2013 Ay Rouge “La Côte aux Enfants”",
-                                    "region": "Bollinger, Champagne",
-                                    "price": "300,00",
-                                    "description": ""
-                                }
-                            ]
-                        },
-                        {
-                            "id": 1,
-                            "country": "Frankrijk",
-                            "wines": [
-                                {
-                                    "id": 0,
-                                    "title": "2015 Nuits Saint Georges “Le Clos des Forets” 1er Cru",
-                                    "region": "Bourgogne",
-                                    "price": "365,00",
-                                    "description": ""
-                                },
-                                {
-                                    "id": 1,
-                                    "title": "2004 Nuits St. Georges “Le Clos des Forets” 1er Cru",
-                                    "region": "Bourgogne",
-                                    "price": "390,00",
-                                    "description": ""
-                                },
-                                {
-                                    "id": 2,
-                                    "title": "2012 Pape Clément Pessac Léognan Grand Cru Classé",
-                                    "region": "Bordeaux",
-                                    "price": "490,00",
                                     "description": ""
                                 }
                             ]
@@ -724,7 +618,7 @@
                             "wines": [
                                 {
                                     "id": 0,
-                                    "title": "2016 The Chocolate Block ",
+                                    "title": "2016  The Chocolate Block",
                                     "region": "Boekenhoutskloof, Zuid Afrika",
                                     "price": "128,00",
                                     "description": ""
@@ -798,55 +692,48 @@
                             "wines": [
                                 {
                                     "id": 0,
-                                    "title": "2013  Ay Rouge “La Côte aux Enfants”",
-                                    "region": "",
-                                    "price": "145,00",
-                                    "description": ""
-                                },
-                                {
-                                    "id": 1,
-                                    "title": "Côtes de Nuits Villages ‘Clos du Chapeau’",
+                                    "title": "2015  Côtes de Nuits Villages ‘Clos du Chapeau’",
                                     "region": "",
                                     "price": "75,00",
                                     "description": ""
                                 },
                                 {
-                                    "id": 2,
+                                    "id": 1,
                                     "title": "2007  “Le Clos des Forets” 1er cru",
                                     "region": "",
                                     "price": "169,00",
                                     "description": ""
                                 },
                                 {
-                                    "id": 3,
+                                    "id": 2,
                                     "title": "2011  “Le Clos des Forets” 1er cru",
                                     "region": "",
                                     "price": "175,00",
                                     "description": ""
                                 },
                                 {
-                                    "id": 4,
+                                    "id": 3,
                                     "title": "2014  “Le Clos des Forets” 1er cru",
                                     "region": "",
                                     "price": "166,00",
                                     "description": ""
                                 },
                                 {
-                                    "id": 5,
+                                    "id": 4,
                                     "title": "2015  “Le Clos des Forets” 1er cru 2",
                                     "region": "",
                                     "price": "179,00",
                                     "description": ""
                                 },
                                 {
-                                    "id": 6,
+                                    "id": 5,
                                     "title": "2004  Magnum “Le Clos des Forets” 1er cru",
                                     "region": "",
                                     "price": "390,00",
                                     "description": ""
                                 },
                                 {
-                                    "id": 7,
+                                    "id": 6,
                                     "title": "2015  Magnum “Le Clos des Forets” 1er cru  ",
                                     "region": "",
                                     "price": "365,00",
@@ -924,7 +811,7 @@
                             "wines": [
                                 {
                                     "id": 0,
-                                    "title": "2015  Margaux 3° Grand Cru Classé",
+                                    "title": "2013  Margaux 3° Grand Cru Classé",
                                     "region": "",
                                     "price": "148,00",
                                     "description": ""
