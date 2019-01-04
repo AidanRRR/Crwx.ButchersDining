@@ -300,7 +300,7 @@ export default class TypeMenu extends React.Component {
                 return (
                     <View key={i}>
                         {i === 0 && (
-                            <View style={{ marginTop: -40 }}></View>
+                            <View style={{ marginTop: -47.5 }}></View>
                         )}
                         <View style={styles.ListItemDomainContainer}>
                             <Text style={styles.ListItemDomainTitle}>

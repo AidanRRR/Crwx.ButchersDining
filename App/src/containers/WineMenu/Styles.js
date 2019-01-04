@@ -105,7 +105,8 @@ export default StyleSheet.create({
     ListItemDomainText: {
         fontFamily: 'MinionPro-Medium',
         color: '#B8B8B8',
-        fontSize: 20
+        fontSize: 20,
+        marginTop: 10
     },
     ListItem: {
         flexDirection: 'row',
@@ -115,7 +116,7 @@ export default StyleSheet.create({
     ListItemBasement: {
         flexDirection: 'row',
         flexWrap: 'wrap',
-        marginBottom: 10
+        marginTop: 40
     },
     TitleSeperator: {
         fontFamily: 'MinionPro-Medium',
