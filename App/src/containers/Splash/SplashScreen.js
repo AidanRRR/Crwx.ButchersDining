@@ -2,6 +2,7 @@ import React from 'react';
 import { Font } from 'expo';
 import { StyleSheet, Text, View, ImageBackground, TouchableHighlight, TouchableOpacity, StatusBar } from 'react-native';
 import SplashBg from '../../../assets/splashscreen.jpg';
+import { AsyncStorage } from "react-native"
 
 import styles from './Styles.js';
 
@@ -22,6 +23,11 @@ export default class SplashScreen extends React.Component {
             'minionpro-Medium': require('./../../../assets/fonts/MinionPro-Medium.otf'),
             'minionpro-Bold': require('./../../../assets/fonts/MinionPro-Bold.otf')
         });
+
+        const response = await fetch('https://raw.githubusercontent.com/AidanRRR/Crwx.ButchersDining/master/App/src/containers/WineMenu/Data.json')
+        const json = await response.json();
+
+        await AsyncStorage.setItem('wines', JSON.stringify(json));
 
         this.setState({ fontLoaded: true });
     }

@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, ImageBackground, TouchableHighlight, TouchableOpacity, TouchableWithoutFeedback, ScrollView } from 'react-native';
 import MenuBg from '../../../assets/menu-background.png';
 import styles from './Styles.js';
-import Data from './Data.json';
+import { AsyncStorage } from "react-native"
 
 export default class TypeMenu extends React.Component {
     state = {
@@ -11,13 +11,17 @@ export default class TypeMenu extends React.Component {
             wineType: 'WIT',
             isSet: false
         },
+        data: null,
         displayData: null,
         loading: true
     }
 
-    componentDidMount() {
+    componentDidMount = async () => {
         const { navigation } = this.props;
         const { selection } = this.state;
+
+        const data = await AsyncStorage.getItem('wines');
+        this.setState({ data: JSON.parse(data) });
 
         const inputSizeType = navigation.getParam('selection', null);
 
@@ -42,7 +46,6 @@ export default class TypeMenu extends React.Component {
         }, this.updateFilters);
     }
     changeSizeType = (id) => {
-
         let wineType = this.state.selection.wineType;
         if (id.toUpperCase() === 'THE BUTCHER\'S BASEMENT') {
             wineType = 'WIT'
@@ -62,12 +65,12 @@ export default class TypeMenu extends React.Component {
     }
 
     updateFilters = () => {
-        const { selection } = this.state;
+        const { selection, data } = this.state;
 
         let filtered;
 
         // Apply sizeType filter
-        filtered = Data.sizeType.filter((sizeType) => {
+        filtered = data.sizeType.filter((sizeType) => {
             return (sizeType.type.toUpperCase() === selection.sizeType.toUpperCase());
         });
 
@@ -84,12 +87,15 @@ export default class TypeMenu extends React.Component {
     handleBack = () => {
         this.props.navigation.pop();
     }
+    handleHome = () => {
+        this.props.navigation.navigate('Home');
+    }
 
     render() {
         const { selection, displayData, loading } = this.state;
 
         if (loading) {
-            return (<Text>Loading...</Text>)
+            return (<View style={styles.loadingBackground}></View>)
         }
 
         const byTheGlass = selection.sizeType.toUpperCase() === 'BY THE GLASS';
@@ -99,6 +105,12 @@ export default class TypeMenu extends React.Component {
         return (
             <View style={styles.container}>
                 <View style={styles.leftNavbar}>
+                    <View style={styles.leftNavbarHome}>
+                        <TouchableOpacity onPress={this.handleHome}>
+                            <Text style={styles.leftNavbarText}>HOME</Text>
+                        </TouchableOpacity>
+                    </View>
+
                     {bottles && (
                         <View>
                             <TouchableOpacity onPress={() => { this.changeWineType('BUBBLES'); }}>

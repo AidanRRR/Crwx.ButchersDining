@@ -1,6 +1,11 @@
 import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
+    loadingBackground: {
+        width: '100%',
+        height: '100%',
+        backgroundColor: 'black'
+    },
     container: {
         backgroundColor: 'black',
         flex: 1,
@@ -8,8 +13,11 @@ export default StyleSheet.create({
     },
     leftNavbar: {
         width: '20%',
-        paddingLeft: 35,
-        paddingTop: 130
+        marginLeft: 35,
+    },
+    leftNavbarHome: {
+        marginTop: 23,
+        marginBottom: 40
     },
     leftNavbarText: {
         fontFamily: 'microbrew-soft-one',
