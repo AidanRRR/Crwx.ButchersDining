@@ -20,7 +20,7 @@ export default StyleSheet.create({
         marginBottom: 40
     },
     leftNavbarText: {
-        fontFamily: 'microbrew-soft-one',
+        fontFamily: 'Microbrew-Soft-One',
         alignSelf: 'flex-start',
         color: 'white',
         marginTop: 15,
@@ -40,14 +40,14 @@ export default StyleSheet.create({
         flexWrap: 'wrap',
     },
     topNavbarText: {
-        fontFamily: 'microbrew-soft-one',
+        fontFamily: 'Microbrew-Soft-One',
         color: 'white',
         fontSize: 22.5,
         marginLeft: 25,
         marginRight: 25
     },
     topNavbarTextFirst: {
-        fontFamily: 'microbrew-soft-one',
+        fontFamily: 'Microbrew-Soft-One',
         color: 'white',
         fontSize: 22.5,
         marginRight: 25,
@@ -89,7 +89,7 @@ export default StyleSheet.create({
         marginTop: 45
     },
     ListTitleText: {
-        fontFamily: 'minionpro-Medium',
+        fontFamily: 'MinionPro-Medium',
         fontSize: 22,
         fontWeight: 'bold'
     },
@@ -98,20 +98,19 @@ export default StyleSheet.create({
         width: '70%'
     },
     ListItemDomainTitle: {
-        fontFamily: 'microbrew-soft-one',
+        fontFamily: 'Microbrew-Soft-One',
         color: 'white',
         fontSize: 27
     },
     ListItemDomainText: {
-        fontFamily: 'minionpro-Medium',
+        fontFamily: 'MinionPro-Medium',
         color: '#B8B8B8',
-        fontSize: 20,
-        marginBottom: 20
+        fontSize: 20
     },
     ListItem: {
         flexDirection: 'row',
         flexWrap: 'wrap',
-        marginBottom: 35
+        marginBottom: 60
     },
     ListItemBasement: {
         flexDirection: 'row',
@@ -119,22 +118,22 @@ export default StyleSheet.create({
         marginBottom: 10
     },
     TitleSeperator: {
-        fontFamily: 'minionpro-Medium',
+        fontFamily: 'MinionPro-Medium',
         fontSize: 21,
         color: 'white'
     },
     ItemTitle: {
-        fontFamily: 'minionpro-Medium',
+        fontFamily: 'MinionPro-Medium',
         fontSize: 22,
         color: 'white'
     },
     ItemRegion: {
-        fontFamily: 'minionpro-Medium',
+        fontFamily: 'MinionPro-Medium',
         fontSize: 22,
         color: 'white'
     },
     ItemPrice: {
-        fontFamily: 'minionpro-Medium',
+        fontFamily: 'MinionPro-Medium',
         color: 'white',
         textAlign: 'right',
         marginRight: 85,

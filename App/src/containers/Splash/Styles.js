@@ -19,8 +19,8 @@ export default StyleSheet.create({
         paddingBottom: 10
     },
     button: {
-        fontFamily: 'microbrew-soft-one',
+        fontFamily: 'Microbrew-Soft-Four',
         fontSize: 30,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
     }
 });

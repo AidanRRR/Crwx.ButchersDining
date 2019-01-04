@@ -103,7 +103,7 @@
                     "wines": [
                         {
                             "id": 0,
-                            "country": "Frankrijk",
+                            "country": "FRANKRIJK",
                             "wines": [
                                 {
                                     "id": 0,
@@ -144,7 +144,7 @@
                         },
                         {
                             "id": 1,
-                            "country": "Duitsland",
+                            "country": "DUITSLAND",
                             "wines": [
                                 {
                                     "id": 0,
@@ -157,7 +157,7 @@
                         },
                         {
                             "id": 2,
-                            "country": "Italië",
+                            "country": "ITALIË",
                             "wines": [
                                 {
                                     "id": 0,
@@ -197,7 +197,7 @@
                     "wines": [
                         {
                             "id": 0,
-                            "country": "Frankrijk",
+                            "country": "FRANKRIJK",
                             "wines": [
                                 {
                                     "id": 0,
@@ -223,7 +223,7 @@
                     "wines": [
                         {
                             "id": 0,
-                            "country": "Frankrijk",
+                            "country": "FRANKRIJK",
                             "wines": [
                                 {
                                     "id": 0,
@@ -278,7 +278,7 @@
                         },
                         {
                             "id": 1,
-                            "country": "Italië",
+                            "country": "ITALIË",
                             "wines": [
                                 {
                                     "id": 0,
@@ -347,7 +347,7 @@
                         },
                         {
                             "id": 2,
-                            "country": "Spanje",
+                            "country": "SPANJE",
                             "wines": [
                                 {
                                     "id": 0,
@@ -374,7 +374,7 @@
                         },
                         {
                             "id": 3,
-                            "country": "Duitsland",
+                            "country": "DUITSLAND",
                             "wines": [
                                 {
                                     "id": 0,
@@ -400,7 +400,7 @@
                         },
                         {
                             "id": 5,
-                            "country": "Argentinië",
+                            "country": "ARGENTINIË",
                             "wines": [
                                 {
                                     "id": 0,
@@ -413,7 +413,7 @@
                         },
                         {
                             "id": 1,
-                            "country": "Zuid-Afrika",
+                            "country": "ZUID-AFRIKA",
                             "wines": [
                                 {
                                     "id": 0,
@@ -432,7 +432,7 @@
                     "wines": [
                         {
                             "id": 0,
-                            "country": "Frankrijk",
+                            "country": "FRANKRIJK",
                             "wines": [
                                 {
                                     "id": 0,
@@ -458,7 +458,7 @@
                     "wines": [
                         {
                             "id": 0,
-                            "country": "Italië",
+                            "country": "ITALIË",
                             "wines": [
                                 {
                                     "id": 0,
@@ -471,7 +471,7 @@
                         },
                         {
                             "id": 1,
-                            "country": "Frankrijk",
+                            "country": "FRANKRIJK",
                             "wines": [
                                 {
                                     "id": 0,
@@ -518,7 +518,7 @@
                     "wines": [
                         {
                             "id": 1,
-                            "country": "Frankrijk",
+                            "country": "FRANKRIJK",
                             "wines": [
                                 {
                                     "id": 0,
@@ -587,7 +587,7 @@
                         },
                         {
                             "id": 0,
-                            "country": "Italië",
+                            "country": "ITALIË",
                             "wines": [
                                 {
                                     "id": 0,

@@ -18,23 +18,27 @@ export default class SplashScreen extends React.Component {
     }
 
     async componentDidMount() {
-        await Font.loadAsync({
-            'microbrew-soft-one': require('./../../../assets/fonts/Microbrew-Soft-Four.otf'),
-            'minionpro-Medium': require('./../../../assets/fonts/MinionPro-Medium.otf'),
-            'minionpro-Bold': require('./../../../assets/fonts/MinionPro-Bold.otf')
-        });
-
         const response = await fetch('https://raw.githubusercontent.com/AidanRRR/Crwx.ButchersDining/master/App/src/containers/WineMenu/Data.json')
         const json = await response.json();
 
         await AsyncStorage.setItem('wines', JSON.stringify(json));
+
+        await Font.loadAsync({
+            'Microbrew-Soft-Five-Fill': require('../../../assets/fonts/Microbrew-Soft-Five-Fill.otf'),
+            'Microbrew-Soft-Four': require('../../../assets/fonts/Microbrew-Soft-Four.otf'),
+            'Microbrew-Soft-One': require('../../../assets/fonts/Microbrew-Soft-One.otf'),
+            'MinionPro-Bold': require('../../../assets/fonts/MinionPro-Bold.otf'),
+            'MinionPro-BoldIt': require('../../../assets/fonts/MinionPro-BoldIt.otf'),
+            'MinionPro-It': require('../../../assets/fonts/MinionPro-It.otf'),
+            'MinionPro-Medium': require('../../../assets/fonts/MinionPro-Medium.otf'),
+        });
 
         this.setState({ fontLoaded: true });
     }
 
     render() {
         return (
-            this.state.fontLoaded ? (
+            this.state.fontLoaded && (
                 <View>
                     <StatusBar hidden={true} />
                     <ImageBackground source={SplashBg} style={{ width: '100%', height: '100%' }}>
@@ -45,7 +49,7 @@ export default class SplashScreen extends React.Component {
                         </TouchableOpacity>
                     </ImageBackground>
                 </View >
-            ) : null
+            )
         );
     }
 
