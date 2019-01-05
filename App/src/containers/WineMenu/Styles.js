@@ -105,8 +105,7 @@ export default StyleSheet.create({
     ListItemDomainText: {
         fontFamily: 'MinionPro-Medium',
         color: '#B8B8B8',
-        fontSize: 20,
-        marginTop: 10
+        fontSize: 20
     },
     ListItem: {
         flexDirection: 'row',
