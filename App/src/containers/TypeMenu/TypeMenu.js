@@ -47,11 +47,11 @@ export default class TypeMenu extends React.Component {
                 <View style={styles.menuItem}>
                     <ImageBackground source={ButchersBasement} style={{ width: '100%', height: '100%' }}>
                         <TouchableWithoutFeedback style={styles.touchableItem} onPress={() => {
-                            this.navigateToMenu('WineMenu', 'The butcher\'s basement');
+                            this.navigateToMenu('WineMenu', 'Butcher\'s basement');
                         }}>
                             <View style={styles.menuItemView}>
                                 <Text style={styles.menuItemHeader}>
-                                    {`The butcher's
+                                    {`Butcher's
                                     basement`}
                                 </Text>
                             </View>

@@ -47,7 +47,7 @@ export default class TypeMenu extends React.Component {
     }
     changeSizeType = (id) => {
         let wineType = this.state.selection.wineType;
-        if (id.toUpperCase() === 'THE BUTCHER\'S BASEMENT') {
+        if (id.toUpperCase() === 'BUTCHER\'S BASEMENT') {
             wineType = 'WIT'
         }
         if (id.toUpperCase() === 'BOTTLES') {
@@ -100,7 +100,7 @@ export default class TypeMenu extends React.Component {
 
         const byTheGlass = selection.sizeType.toUpperCase() === 'BY THE GLASS';
         const bottles = selection.sizeType.toUpperCase() === 'BOTTLES';
-        const butchersBasement = selection.sizeType.toUpperCase() === 'THE BUTCHER\'S BASEMENT';
+        const butchersBasement = selection.sizeType.toUpperCase() === 'BUTCHER\'S BASEMENT';
 
         return (
             <View style={styles.container}>
@@ -177,10 +177,10 @@ export default class TypeMenu extends React.Component {
                                     (<Text style={[styles.topNavbarText, styles.topNavbarTextUnderline]}>BOTTLES</Text>) :
                                     (<Text style={[styles.topNavbarText]}>BOTTLES</Text>)}
                             </TouchableOpacity>
-                            <TouchableOpacity onPress={() => { this.changeSizeType('THE BUTCHER\'S BASEMENT'); }}>
-                                {selection.sizeType.toUpperCase() === 'THE BUTCHER\'S BASEMENT' ?
-                                    (<Text style={[styles.topNavbarText, styles.topNavbarTextUnderline]}>THE BUTCHER'S BASEMENT</Text>) :
-                                    (<Text style={[styles.topNavbarText]}>THE BUTCHER'S BASEMENT</Text>)}
+                            <TouchableOpacity onPress={() => { this.changeSizeType('BUTCHER\'S BASEMENT'); }}>
+                                {selection.sizeType.toUpperCase() === 'BUTCHER\'S BASEMENT' ?
+                                    (<Text style={[styles.topNavbarText, styles.topNavbarTextUnderline]}>BUTCHER'S BASEMENT</Text>) :
+                                    (<Text style={[styles.topNavbarText]}>BUTCHER'S BASEMENT</Text>)}
                             </TouchableOpacity>
                         </View>
                         <ScrollView style={styles.wineList}>

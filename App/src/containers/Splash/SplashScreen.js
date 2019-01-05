@@ -45,7 +45,7 @@ export default class SplashScreen extends React.Component {
                         <TouchableOpacity style={styles.textContainer}
                             underlayColor={'gray'}
                             onPress={() => this.navigateToMenu('TypeMenu')}>
-                            <Text style={styles.button}>ONTDEK DE WIJNEN</Text>
+                            <Text style={styles.button}>ENTER WINE CAVE</Text>
                         </TouchableOpacity>
                     </ImageBackground>
                 </View >
