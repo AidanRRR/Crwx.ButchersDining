@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Butcher's dining",
-    "description": "Digital wine menu for De laet",
-    "slug": "Butchers-dining",
+    "name": "Winepad",
+    "description": "Digitaal wijn menu",
+    "slug": "Winepad",
     "privacy": "public",
     "sdkVersion": "31.0.0",
     "platforms": [

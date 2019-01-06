@@ -14,6 +14,7 @@ export default StyleSheet.create({
     leftNavbar: {
         width: '20%',
         marginLeft: 35,
+        paddingTop: 124
     },
     leftNavbarHome: {
         marginTop: 23,

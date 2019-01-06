@@ -105,11 +105,11 @@ export default class TypeMenu extends React.Component {
         return (
             <View style={styles.container}>
                 <View style={styles.leftNavbar}>
-                    <View style={styles.leftNavbarHome}>
+                    {/* <View style={styles.leftNavbarHome}>
                         <TouchableOpacity onPress={this.handleHome}>
                             <Text style={styles.leftNavbarText}>HOME</Text>
                         </TouchableOpacity>
-                    </View>
+                    </View> */}
 
                     {bottles && (
                         <View>
