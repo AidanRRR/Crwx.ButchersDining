@@ -86,7 +86,7 @@
                             "id": 2,
                             "title": "Barolo “Chinato”",
                             "region": "Cocchi, Piemonte",
-                            "price": "8,50",
+                            "price": "9,50",
                             "description": "Deze rode, kruidige en lichtzoete wijn is de ideale afsluiter."
                         }
                     ]
@@ -358,7 +358,7 @@
                                 },
                                 {
                                     "id": 1,
-                                    "title": "2015  Ribera del Duero “Crianza”",
+                                    "title": "2016  Ribera del Duero “Crianza”",
                                     "region": "Teofilo Reyes, Castilla y Leon",
                                     "price": "57,00",
                                     "description": ""
@@ -406,7 +406,7 @@
                                     "id": 0,
                                     "title": "2014  Malbec Reserva",
                                     "region": "Altos Las Hormigas",
-                                    "price": "27,00",
+                                    "price": "49,00",
                                     "description": ""
                                 }
                             ]
@@ -811,7 +811,7 @@
                             "wines": [
                                 {
                                     "id": 0,
-                                    "title": "2013  Margaux 3° Grand Cru Classé",
+                                    "title": "2014  Margaux 3° Grand Cru Classé",
                                     "region": "",
                                     "price": "148,00",
                                     "description": ""
