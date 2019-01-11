@@ -116,7 +116,7 @@ export default StyleSheet.create({
     ListItemBasement: {
         flexDirection: 'row',
         flexWrap: 'wrap',
-        marginTop: 40
+        marginTop: 10
     },
     TitleSeperator: {
         fontFamily: 'MinionPro-Medium',
