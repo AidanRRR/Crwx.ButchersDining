@@ -14,15 +14,20 @@ export default class SplashScreen extends React.Component {
     };
 
     state = {
-        fontLoaded: false
+        fontsLoaded: false,
+        winesLoaded: false
     }
 
-    async componentDidMount() {
+    loadWines = async () => {
         const response = await fetch('https://raw.githubusercontent.com/AidanRRR/Crwx.ButchersDining/master/App/src/containers/WineMenu/Data.json')
         const json = await response.json();
 
         await AsyncStorage.setItem('wines', JSON.stringify(json));
 
+        this.setState({ winesLoaded: true });
+    }
+
+    loadFonts = async () => {
         await Font.loadAsync({
             'Microbrew-Soft-Five-Fill': require('../../../assets/fonts/Microbrew-Soft-Five-Fill.otf'),
             'Microbrew-Soft-Four': require('../../../assets/fonts/Microbrew-Soft-Four.otf'),
@@ -33,12 +38,19 @@ export default class SplashScreen extends React.Component {
             'MinionPro-Medium': require('../../../assets/fonts/MinionPro-Medium.otf'),
         });
 
-        this.setState({ fontLoaded: true });
+        this.setState({ fontsLoaded: true });
+    }
+
+    componentDidMount = async () => {
+        await this.loadWines();
+        await this.loadFonts();
+
+        this.props.navigation.addListener('willFocus', this.loadWines);
     }
 
     render() {
         return (
-            this.state.fontLoaded && (
+            this.state.fontsLoaded && this.state.winesLoaded && (
                 <View>
                     <StatusBar hidden={true} />
                     <ImageBackground source={SplashBg} style={{ width: '100%', height: '100%' }}>
