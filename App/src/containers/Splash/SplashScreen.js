@@ -18,6 +18,21 @@ export default class SplashScreen extends React.Component {
         winesLoaded: false
     }
 
+    load = async () => {
+        await this.tryUpdatingApp();
+        await this.loadWines();
+    }
+
+    tryUpdatingApp = async () => {
+        try {
+            const update = await Expo.Updates.checkForUpdateAsync();
+            if (update.isAvailable) {
+                await Expo.Updates.fetchUpdateAsync();
+                Expo.Updates.reloadFromCache();
+            }
+        } catch (e) { }
+    }
+
     loadWines = async () => {
         const response = await fetch('https://raw.githubusercontent.com/AidanRRR/Crwx.ButchersDining/master/App/src/containers/WineMenu/Data.json')
         const json = await response.json();
@@ -42,10 +57,11 @@ export default class SplashScreen extends React.Component {
     }
 
     componentDidMount = async () => {
+        await this.tryUpdatingApp();
         await this.loadWines();
         await this.loadFonts();
 
-        this.props.navigation.addListener('willFocus', this.loadWines);
+        this.props.navigation.addListener('willFocus', this.load);
     }
 
     render() {
