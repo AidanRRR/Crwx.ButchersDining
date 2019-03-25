@@ -19,8 +19,8 @@ export default class SplashScreen extends React.Component {
     }
 
     load = async () => {
-        await this.tryUpdatingApp();
         await this.loadWines();
+        await this.tryUpdatingApp();
     }
 
     tryUpdatingApp = async () => {
@@ -34,12 +34,16 @@ export default class SplashScreen extends React.Component {
     }
 
     loadWines = async () => {
+        console.log('Loading wines - start');
+
         const response = await fetch('https://raw.githubusercontent.com/AidanRRR/Crwx.ButchersDining/master/App/src/containers/WineMenu/Data.json')
         const json = await response.json();
 
         await AsyncStorage.setItem('wines', JSON.stringify(json));
 
         this.setState({ winesLoaded: true });
+
+        console.log('Loading wines - done');
     }
 
     loadFonts = async () => {
@@ -57,9 +61,9 @@ export default class SplashScreen extends React.Component {
     }
 
     componentDidMount = async () => {
-        await this.tryUpdatingApp();
         await this.loadWines();
         await this.loadFonts();
+        await this.tryUpdatingApp();
 
         this.props.navigation.addListener('willFocus', this.load);
     }
